@@ -3,7 +3,7 @@
 typedef int DataType;
 
 typedef struct node{
-	Datatype data;
+	DataType data;
 	struct node *lchild, *rchild;
 } BinTNode;
 
